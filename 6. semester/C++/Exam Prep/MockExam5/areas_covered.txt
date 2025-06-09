@@ -1,0 +1,64 @@
+Exam Preparation Summary – Mock Exam 5
+
+Opgave 1 – Saml quizresultater og sorter studerende
+
+Covered Professor's Focus Areas:
+
+1. Object-Oriented Programming (OOP):
+   - Created three well-structured classes: `QuizResult`, `Student`, and `Classroom`.
+   - Used encapsulation and public getters to expose private data safely.
+   - Employed composition: `Student` owns multiple `QuizResult` objects; `Classroom` owns multiple `Student` instances.
+
+2. STL Data Structures:
+   - Used `std::vector` to hold quiz results and student lists.
+   - Used `std::sort` with lambda to order students by weighted average.
+
+3. File Handling Simulation:
+   - `loadFromStream(std::istream&)` parses structured quiz data from a simulated text stream (`std::stringstream`).
+   - Input format mimics file-based reading while maintaining clarity and modularity.
+
+4. Algorithmic Thinking:
+   - Correctly calculates weighted scores: `points * (weight / 100.0)`.
+   - Aggregates and displays sorted results in tabular format using `std::setw` and `std::setprecision`.
+
+5. Testing & Driver Code:
+   - `main.cpp` creates a classroom, loads students from a stream, and prints the report.
+   - Matches real-world simulation and demonstrates correctness with hardcoded test data.
+
+
+Opgave 2 – Antal ord i tekst
+
+Covered Professor's Focus Areas:
+
+1. String Manipulation:
+   - Uses `std::istringstream` to tokenize input into space-separated words.
+
+2. Algorithmic Thinking:
+   - Proper loop-based counting of words with clear condition checking.
+
+3. Testing & Driver Code:
+   - Accepts input via `std::getline()` and prints the result directly.
+
+
+Opgave 3 – Antal fælles elementer i arrays
+
+Covered Professor's Focus Areas:
+
+1. Data Structures:
+   - Used fixed-size C-style arrays for direct manipulation.
+   - Leveraged `std::unordered_set` to efficiently track seen values and avoid duplicates.
+
+2. Algorithmic Thinking:
+   - Iterated over both arrays, used membership logic to count overlaps.
+   - Avoids double-counting with a `seen` set to ensure uniqueness.
+
+3. Testing & Driver Code:
+   - Includes `main()` that sets up arrays and verifies expected output.
+
+
+Overall Summary:
+
+- Strong command of OOP design, class interactions, and data encapsulation.
+- Applied STL structures and algorithms (vector, set, sort) with precision.
+- Simulated file/stream input and output using clean, modular code.
+- Wrote complete and testable programs that reflect exam expectations.

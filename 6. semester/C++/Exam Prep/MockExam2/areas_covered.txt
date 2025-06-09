@@ -1,0 +1,62 @@
+Exam Preparation Summary – Mock Exam 2
+
+Opgave 1 – Karakterregistrering og vægtet udregning
+
+Covered Professor's Focus Areas:
+
+1. Object-Oriented Programming (OOP):
+   - Designed and implemented the Grade and Gradebook classes, each with clear roles and responsibilities.
+   - Used encapsulation: attributes (points, weight, grade lists) are private, with public methods for interaction.
+   - Demonstrated optional composition by modeling Gradebook as a map of users to vectors of Grade objects.
+
+2. File Handling:
+   - Used stringstream as an input stream to simulate reading from a text file (gb.readFromStream).
+   - Parsed structured data from the stream, converted it into objects, and stored it in a structured format.
+
+3. Data Structures:
+   - Used std::vector to store multiple Grade objects per user.
+   - Used std::map to associate each username with their list of grades.
+   - Traversed nested data structures to calculate weighted averages.
+
+4. Algorithmic Thinking:
+   - Computed weighted average using value × (weight / 100).
+   - Correctly handled total weight aggregation and fallback logic if weight was zero.
+
+5. Testing & Driver Code:
+   - main.cpp contains a test scenario with multiple students and varying weights.
+   - Demonstrates output format and correctness of calculations.
+
+
+Opgave 2 – Antal forekomster af tegn
+
+Covered Professor's Focus Areas:
+
+1. Algorithmic Thinking:
+   - Wrote a function to count character occurrences, using a case-insensitive comparison.
+
+2. String Manipulation:
+   - Used std::tolower to normalize character case before comparison.
+
+3. Testing & Driver Code:
+   - main() demonstrates the function with real input and prints expected results.
+
+
+Opgave 3 – Maksimumværdi i to arrays
+
+Covered Professor's Focus Areas:
+
+1. Data Structures:
+   - Used C-style arrays to directly manipulate and compare values.
+
+2. Algorithmic Thinking:
+   - Compared elements from both arrays in a loop and tracked the largest encountered value.
+
+3. Testing & Driver Code:
+   - main() provides arrays with values and verifies that the correct maximum is printed.
+
+Overall Summary:
+
+- Implemented multiple classes and data models with correct encapsulation and structure.
+- Read and processed structured input data using standard C++ streams.
+- Applied loops, conditionals, and arithmetic to perform meaningful data analysis.
+- Designed and tested driver code for all three tasks, covering core exam competencies.

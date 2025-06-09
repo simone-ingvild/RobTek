@@ -1,0 +1,56 @@
+Exam Preparation Summary – Mock Exam 3
+
+Opgave 1 – Eksamensplanlægning med præferencer
+
+Covered Professor's Focus Areas:
+
+1. Object-Oriented Programming (OOP):
+   - Designed multiple classes: Student, ExamSlot, and ExamScheduler, each with clear responsibilities.
+   - Used encapsulation: private attributes with public methods.
+   - Demonstrated composition/aggregation: ExamScheduler contains vectors of Student and ExamSlot objects.
+
+2. Data Structures:
+   - Used std::vector to store student lists, preferences, and exam assignments.
+   - Manually iterated through vectors for matching and assignment logic.
+
+3. Practical Domain & Simulation:
+   - Simulated a real-world exam scheduling system based on student preferences and capacity limits.
+
+4. Testing & Driver Code:
+   - Implemented main.cpp with multiple test cases, including capacity overflow scenarios to validate unassigned student handling.
+
+
+Opgave 2 – Er tekst en palindrom?
+
+Covered Professor's Focus Areas:
+
+1. Algorithmic Thinking:
+   - Implemented a two-pointer approach to detect palindromes.
+   - Included string manipulation with std::tolower and std::isalnum to ignore punctuation and case.
+
+2. Testing & Driver Code:
+   - main() includes user input and predefined test cases to validate edge cases and common examples.
+
+
+Opgave 3 – Mindste fælles element
+
+Covered Professor's Focus Areas:
+
+1. Data Structures:
+   - Operated directly on C-style arrays.
+   - Used nested loops to manually compare elements.
+
+2. Algorithmic Thinking:
+   - Tracked and returned the smallest common element.
+   - Included logic to handle the case where no common element exists (returns -1).
+
+3. Testing & Driver Code:
+   - main() includes multiple test scenarios to confirm correct behavior for both matching and non-matching arrays.
+
+
+Overall Summary:
+
+- Demonstrated solid understanding of encapsulation, class design, and composition.
+- Worked confidently with arrays and vectors to manipulate and search data.
+- Applied algorithmic thinking across multiple contexts (strings, arrays, simulation).
+- Wrote clear, modular, and testable code with practical domain relevance.

@@ -1,0 +1,63 @@
+Exam Preparation Summary – Mock Exam 4
+
+Opgave 1 – Simulér en afstemning og find vinderen
+
+Covered Professor's Focus Areas:
+
+1. Object-Oriented Programming (OOP):
+   - Implemented Candidate, Voter, and BallotBox classes, each with clear and single-purpose responsibilities.
+   - Applied encapsulation: all attributes are private with clean public interfaces.
+   - Followed proper separation across .h and .cpp files.
+
+2. STL Data Structures:
+   - Used std::vector for storing candidates and voters.
+   - Used std::mt19937 and std::uniform_int_distribution for deterministic and fair random number generation.
+
+3. Simulation & Practical Domains:
+   - Simulated a realistic voting system where 100 voters cast random votes.
+   - Random behavior was controlled via a fixed seed for reproducibility.
+
+4. Algorithmic Thinking:
+   - Implemented logic to identify the winner based on highest vote count.
+   - Used iteration to process vote tallies.
+
+5. Testing & Driver Code:
+   - `main.cpp` sets up the full scenario: populates data, runs election, and prints results.
+   - Output format clearly matches the expectations for exam readability and result interpretation.
+
+
+Opgave 2 – Starter tekst med præfiks?
+
+Covered Professor's Focus Areas:
+
+1. String Manipulation:
+   - Used substr() and size() to detect whether the text starts with the given prefix.
+
+2. Algorithmic Thinking:
+   - Carefully considered edge cases like prefix being longer than text.
+
+3. Testing & Driver Code:
+   - Included user input and clear output messages in main() for validation.
+
+
+Opgave 3 – Næststørste element i array
+
+Covered Professor's Focus Areas:
+
+1. Data Structures:
+   - Worked directly with C-style arrays to manually inspect values.
+
+2. Algorithmic Thinking:
+   - Implemented comparison-based tracking to find both the maximum and second maximum value.
+   - Correctly handled edge cases, including arrays of size < 2 or with duplicate max values.
+
+3. Testing & Driver Code:
+   - Provided working test case in main() and displayed result with user-friendly message.
+
+
+Overall Summary:
+
+- Used clean OOP architecture with encapsulation and separation of concerns.
+- Demonstrated understanding of STL containers and randomization utilities.
+- Applied careful algorithmic logic in arrays, string analysis, and simulation behavior.
+- Wrote complete, testable programs for all exercises with well-structured output.

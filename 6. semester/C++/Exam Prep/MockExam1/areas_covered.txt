@@ -1,0 +1,63 @@
+Exam Preparation Summary – Mock Exam 1
+
+Opgave 1 – Lodtrækningssystem til eksamener
+
+Covered Professor's Focus Areas:
+
+1. Object-Oriented Programming (OOP):
+   - Implemented the Student, Bin, and CourseLottery classes with clear responsibilities.
+   - Used encapsulation: private attributes with public setter and printer methods.
+   - Demonstrated composition: CourseLottery manages vectors of Student objects and contains Bin objects for randomized draws.
+
+2. Composition/Aggregation:
+   - CourseLottery class holds and coordinates multiple Student and Bin instances to manage the full simulation.
+
+3. Data Structures:
+   - Used std::vector to store student records and randomized item pools for fair selection.
+   - Leveraged std::shuffle and indexing for fair allocation.
+
+4. Practical Domain & Simulation:
+   - Simulates a course lottery system where students are randomly assigned exams in two rounds, mimicking real-world academic logistics.
+
+5. Randomized Algorithms:
+   - Implemented reproducible random selection using std::mt19937 and std::shuffle with a fixed seed for predictable test results.
+
+6. Testing & Driver Code:
+   - main.cpp creates a CourseLottery instance, adds students, defines exam pools, runs the lottery, and prints formatted output.
+
+
+Opgave 2 – Indeholder tekst et ord?
+
+Covered Professor's Focus Areas:
+
+1. String Manipulation:
+   - Used std::string::find to detect if a word is a substring of the text.
+
+2. Algorithmic Thinking:
+   - Correctly implemented a search operation returning a boolean based on presence.
+
+3. Testing & Driver Code:
+   - main() reads user input, applies the function, and reports results clearly.
+
+
+Opgave 3 – Sum af største elementer i to arrays
+
+Covered Professor's Focus Areas:
+
+1. Data Structures:
+   - Used C-style arrays to practice low-level memory and index handling.
+
+2. Algorithmic Thinking:
+   - Used loops to find maximum values in each array and computed their sum.
+   - Included validation for array size.
+
+3. Testing & Driver Code:
+   - main() sets up example arrays, calls the function, and prints the result to confirm correctness.
+
+
+Overall Summary:
+
+- Implemented structured, encapsulated C++ classes across multiple files.
+- Simulated a realistic lottery-style system for academic scheduling.
+- Demonstrated algorithmic and data structure proficiency with arrays, strings, and loops.
+- Wrote functional, testable code with robust main() drivers to validate logic and output.
